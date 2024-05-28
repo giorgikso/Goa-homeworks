@@ -19,7 +19,7 @@ print (10 + 20)
 print (10 - 13)
 print (10 * 15)
 print (10 // 35)
-
-
-
-
+print (20 + 10)
+print (20 - 13)
+print (20 * 15)
+print (20 // 35)
