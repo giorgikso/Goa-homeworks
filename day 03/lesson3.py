@@ -1,13 +1,17 @@
-from turtle import *
+from turtle import * #tartle-იდან პროექტის დაწყება
 
-speed(300)
+speed(300) #სისწრაფის დაყენება
 
+#ხაზის დიზაინი
 width(7)
 color("black")
+
+#საწყის წერტილზე გადატანა
 penup()
 goto(-50, -100)
 pendown()
 
+#მოძრაობის დაწყება
 forward (450)
 left(90)
 
@@ -51,12 +55,12 @@ forward(400)
 
 color("red")
 
-begin_fill()
+begin_fill() #გაფერადების დაწყება
 right(45)
 forward(22.5)
 right(90)
 forward(22.5)
-end_fill()
+end_fill() #გაფერადების დასრულება
 
 penup()
 goto(115, 0)
@@ -91,4 +95,4 @@ forward(245)
 end_fill()
 
 
-exitonclick()
+exitonclick() #კლიკზე გასვლა
